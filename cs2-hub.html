@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#10120f">
+<title>CS2 HUB — Your tactical edge</title>
+<style>
+:root{--bg:#10120f;--panel:#191c17;--panel2:#20241d;--line:#34392e;--text:#f3f5ee;--muted:#a4ab9b;--lime:#c8ff4d;--orange:#ff9c45}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 85% -15%,#303c1d 0,transparent 38%),var(--bg);color:var(--text);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,select{font:inherit}button{cursor:pointer}.wrap{max-width:1120px;margin:auto;padding:0 18px 90px}.top{display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-bottom:1px solid var(--line)}.brand{font-weight:900;letter-spacing:-1px;font-size:22px}.brand span{color:var(--lime)}.tag{font-size:11px;color:var(--lime);border:1px solid #56672d;padding:5px 8px;border-radius:5px;letter-spacing:1px}.hero{padding:40px 0 28px}.eyebrow{color:var(--lime);font-size:12px;letter-spacing:2px;font-weight:800}.hero h1{font-size:clamp(38px,8vw,70px);line-height:.98;letter-spacing:-3px;margin:15px 0}.hero h1 em{font-style:normal;color:var(--lime)}.hero p{color:var(--muted);max-width:560px;line-height:1.6}.search{margin-top:24px;display:flex;gap:8px;max-width:520px}.search input{min-width:0;flex:1;background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:13px;color:white}.btn{background:var(--lime);color:#14170f;border:0;border-radius:8px;padding:12px 16px;font-weight:800}.section-head{display:flex;align-items:center;justify-content:space-between;margin:28px 0 14px}.section-head h2{font-size:19px;margin:0}.section-head small{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.card{background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:13px;padding:17px;min-height:145px;transition:.2s}.card:hover{border-color:#768b3d;transform:translateY(-2px)}.icon{font-size:24px}.card h3{margin:12px 0 6px;font-size:16px}.card p{margin:0;color:var(--muted);font-size:13px;line-height:1.5}.card .arrow{float:right;color:var(--lime)}.toolbox{display:grid;grid-template-columns:1fr 1fr;gap:16px}.box{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:18px}.box h3{margin:0 0 15px}.preview{height:100px;border-radius:9px;background:repeating-linear-gradient(0deg,#171a14,#171a14 24px,#1d2119 25px),repeating-linear-gradient(90deg,transparent,transparent 24px,#272c21 25px);display:grid;place-items:center;margin-bottom:16px;position:relative}.crosshair{position:relative;width:30px;height:30px}.crosshair:before,.crosshair:after{content:"";position:absolute;background:var(--lime);box-shadow:0 0 5px #c8ff4d}.crosshair:before{width:2px;height:30px;left:14px;top:0}.crosshair:after{height:2px;width:30px;left:0;top:14px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field label{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-bottom:7px}.field input[type=range]{width:100%;accent-color:var(--lime)}.field select{width:100%;background:#11140f;border:1px solid var(--line);color:white;padding:9px;border-radius:7px}.code{background:#0d0f0c;border:1px solid var(--line);padding:12px;border-radius:8px;color:var(--lime);font-size:12px;overflow-wrap:anywhere;margin:12px 0}.notice{font-size:11px;color:var(--muted);line-height:1.5;margin-top:10px}.list{display:grid;gap:8px}.row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px;background:#11140f;border:1px solid var(--line);border-radius:8px}.row strong{font-size:13px}.row span{font-size:11px;color:var(--muted)}.mini{background:#30372a;color:var(--lime);border:1px solid #465438;border-radius:6px;padding:7px 9px;font-size:11px}.footer{margin-top:34px;border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.mobile-nav{display:none}
+@media(max-width:700px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.toolbox{grid-template-columns:1fr}.hero{padding-top:32px}.hero h1{letter-spacing:-2px}.wrap{padding-left:14px;padding-right:14px}.mobile-nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:space-around;background:#141710f2;border-top:1px solid var(--line);padding:10px 4px calc(10px + env(safe-area-inset-bottom));backdrop-filter:blur(14px);z-index:5}.mobile-nav button{background:none;border:0;color:var(--muted);font-size:10px;display:grid;gap:4px;justify-items:center}.mobile-nav b{font-size:17px}.tag{font-size:9px}}
+@media(max-width:360px){.grid{grid-template-columns:1fr}.fields{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><div class="brand">CS2 <span>HUB</span></div><div class="tag">TACTICAL TOOLKIT</div></header>
+<section class="hero" id="home">
+<div class="eyebrow">BUILT FOR THE NEXT ROUND</div>
+<h1>PLAY SMARTER.<br><em>WIN MORE.</em></h1>
+<p>Your compact CS2 companion. Tune your crosshair, study utility lineups, and find your next teammate — all in one place.</p>
+<div class="search"><input id="search" placeholder="Search guides, tools, settings..." aria-label="Search tools"><button class="btn" onclick="searchCards()">Search ↗</button></div>
+</section>
+<div class="section-head"><h2>Quick access</h2><small>YOUR TOOLKIT / 06</small></div>
+<section class="grid" id="cards">
+<article class="card" data-search="crosshair generator aim"><div class="icon">⌖ <span class="arrow">↗</span></div><h3>Crosshair Generator</h3><p>Adjust your aim style and copy a starter config.</p></article>
+<article class="card" data-search="pro settings sensitivity resolution"><div class="icon">⚙️ <span class="arrow">↗</span></div><h3>Pro Settings</h3><p>Browse a demo list of settings to compare.</p></article>
+<article class="card" data-search="nade guide smoke flash molotov grenade"><div class="icon">💣 <span class="arrow">↗</span></div><h3>Nade Guide</h3><p>Learn the basics of smokes, flashes and mollies.</p></article>
+<article class="card" data-search="find teammates team friends"><div class="icon">♟ <span class="arrow">↗</span></div><h3>Find Teammates</h3><p>Set your preferred role and rank to find players.</p></article>
+<article class="card" data-search="tournaments events competition"><div class="icon">🏆 <span class="arrow">↗</span></div><h3>Tournaments</h3><p>A place to track community events and scrims.</p></article>
+<article class="card" data-search="news updates patch"><div class="icon">◈ <span class="arrow">↗</span></div><h3>CS2 Updates</h3><p>Keep up with patches and competitive changes.</p></article>
+</section>
+<div class="section-head" id="crosshair"><h2>Crosshair lab</h2><small>LIVE PREVIEW</small></div>
+<section class="toolbox">
+<div class="box"><h3>Make it yours</h3><div class="preview"><div class="crosshair" id="crosshairPreview"></div></div>
+<div class="fields">
+<div class="field"><label>Size <b id="sizeVal">10</b></label><input id="size" type="range" min="4" max="24" value="10"></div>
+<div class="field"><label>Thickness <b id="thickVal">2</b></label><input id="thick" type="range" min="1" max="5" value="2"></div>
+<div class="field"><label>Gap <b id="gapVal">4</b></label><input id="gap" type="range" min="0" max="10" value="4"></div>
+<div class="field"><label>Color</label><select id="color"><option value="#c8ff4d">Neon green</option><option value="#ffffff">White</option><option value="#00e5ff">Cyan</option><option value="#ff4d4d">Red</option></select></div>
+</div></div>
+<div class="box"><h3>Your starter config</h3><p style="color:var(--muted);font-size:13px">Use these values as a reference, then set them in CS2.</p><div class="code" id="config">cl_crosshairsize 1.0<br>cl_crosshairthickness 0.5</div><button class="btn" onclick="copyConfig()">Copy config</button><div class="notice">This is a simple helper preview, not an official Valve tool. Settings are saved only in this browser.</div></div>
+</section>
+<div class="section-head" id="settings"><h2>Community board</h2><small>DEMO CONTENT</small></div>
+<section class="toolbox">
+<div class="box"><h3>Pro settings — sample</h3><div class="list">
+<div class="row"><div><strong>Rifler setup</strong><br><span>Example profile · 800 DPI</span></div><button class="mini" onclick="alert('Demo profile: sensitivity 1.2, 800 DPI. Not a verified pro setup.')">View</button></div>
+<div class="row"><div><strong>AWP setup</strong><br><span>Example profile · 400 DPI</span></div><button class="mini" onclick="alert('Demo profile: sensitivity 2.0, 400 DPI. Not a verified pro setup.')">View</button></div>
+<div class="row"><div><strong>Entry fragger</strong><br><span>Example profile · 800 DPI</span></div><button class="mini" onclick="alert('Demo profile only. Replace with verified settings before publishing.')">View</button></div>
+</div></div>
+<div class="box" id="community"><h3>Find teammates</h3><div class="fields">
+<div class="field"><label>Your rank</label><select id="rank"><option>Premier</option><option>Silver</option><option>Gold Nova</option><option>Master Guardian</option><option>Global Elite</option></select></div>
+<div class="field"><label>Your role</label><select id="role"><option>Rifler</option><option>AWPer</option><option>IGL</option><option>Support</option><option>Entry</option></select></div></div><p class="notice">This demo doesn't publish your profile online yet.</p><button class="btn" onclick="saveProfile()">Save local profile</button><p id="saved" class="notice" aria-live="polite"></p></div>
+</section>
+<footer class="footer"><span>© CS2 HUB · Fan-made concept</span><span>Not affiliated with Valve or Counter-Strike.</span></footer>
+</div>
+<nav class="mobile-nav"><button onclick="go('home')"><b>⌂</b>Home</button><button onclick="go('crosshair')"><b>⌖</b>Crosshair</button><button onclick="go('settings')"><b>⚙</b>Settings</button><button onclick="go('community')"><b>♟</b>Team</button></nav>
+<script>
+const $=id=>document.getElementById(id);
+function update(){const s=+$('size').value,t=+$('thick').value,g=+$('gap').value,c=$('color').value;
+$('sizeVal').textContent=s;$('thickVal').textContent=t;$('gapVal').textContent=g;
+const p=$('crosshairPreview');p.style.width=(s*2+g*2+8)+'px';p.style.height=(s*2+g*2+8)+'px';
+p.style.setProperty('--ch-color',c);
+p.style.setProperty('--ch-size',s+'px');p.style.setProperty('--ch-thick',t+'px');p.style.setProperty('--ch-gap',g+'px');
+p.innerHTML='<i style="position:absolute;left:50%;top:0;transform:translateX(-50%);height:'+s+'px;width:'+t+'px;background:'+c+'"></i><i style="position:absolute;left:50%;bottom:0;transform:translateX(-50%);height:'+s+'px;width:'+t+'px;background:'+c+'"></i><i style="position:absolute;left:0;top:50%;transform:translateY(-50%);width:'+s+'px;height:'+t+'px;background:'+c+'"></i><i style="position:absolute;right:0;top:50%;transform:translateY(-50%);width:'+s+'px;height:'+t+'px;background:'+c+'"></i>';
+$('config').textContent='cl_crosshairsize '+(s/10).toFixed(1)+'\\ncl_crosshairthickness '+(t/2).toFixed(1)+'\\ncl_crosshairgap '+(g-4)+'\\n// Preview values only — check in-game';
+localStorage.setItem('cs2hub-settings',JSON.stringify({s,t,g,c}));
+}
+['size','thick','gap','color'].forEach(id=>$(id).addEventListener('input',update));
+try{const old=JSON.parse(localStorage.getItem('cs2hub-settings'));if(old){$('size').value=old.s;$('thick').value=old.t;$('gap').value=old.g;$('color').value=old.c}}catch(e){} update();
+function copyConfig(){const text=$('config').textContent;navigator.clipboard?.writeText(text).then(()=>alert('Config copied!')).catch(()=>alert(text));}
+function saveProfile(){const p={rank:$('rank').value,role:$('role').value};localStorage.setItem('cs2hub-profile',JSON.stringify(p));$('saved').textContent='Saved on this device: '+p.rank+' · '+p.role;}
+function go(id){$(id).scrollIntoView({behavior:'smooth',block:'start'})}
+function searchCards(){const q=$('search').value.toLowerCase().trim();document.querySelectorAll('#cards .card').forEach(c=>{c.style.display=(!q||c.dataset.search.includes(q)||c.innerText.toLowerCase().includes(q))?'':'none'});$('cards').scrollIntoView({behavior:'smooth',block:'start'})}
+$('search').addEventListener('keydown',e=>{if(e.key==='Enter')searchCards()});
+</script>
+</body>
+</html>
